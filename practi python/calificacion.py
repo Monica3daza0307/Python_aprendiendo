@@ -1,0 +1,5 @@
+cal1=float(input("Digitar la calificacion 1."))
+cal2=float(input("Digitar la calificacion 2."))
+cal3=float(input("Digitar la calificacion 3."))
+prom=round((cal1+cal2+cal3)/3,2)
+print("El promedio de la asignatura es igual a ={}".format(prom))
